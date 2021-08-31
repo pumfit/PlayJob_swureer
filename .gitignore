@@ -9,9 +9,16 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+/PlayJob_Example/
+/OuterAssets/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
-!/[Aa]ssets/**/*.meta
+/[Aa]ssets/**/*.meta
+*.meta/
+*.asset/
+*.txt/
+*.apk/
+*.png/
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
